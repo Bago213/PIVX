@@ -112,7 +112,7 @@ public:
         pchMessageStart[1] = 0x3e;
         pchMessageStart[2] = 0xd3;
         pchMessageStart[3] = 0xfd;
-        vAlertPubKey = ParseHex("0482fae82061c1400ca141ccb3831ee91bbb054495b75bd13a44c83e6bdff949eb69c76cce3d8957328cec83513f3a1f40d15b4f8a0dcbdd14555bdd3fe45649b4");
+        vAlertPubKey = ParseHex("4104678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5fac");
         nDefaultPort = 51472;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // PIVX starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
